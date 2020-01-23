@@ -1,9 +1,9 @@
 <?php
 /*VARIABLES*/
-$v1=20;
-$v2=30;
-$v3=7;
-$v4=1;
+$v1=$_GET['v1'];
+$v2=$_GET['v2'];
+$v3=$_GET['v3'];
+$v4=$_GET['v4'];
 $aux;
 echo "ENUNCIADO - ".$v1." - ".$v2." - ".$v3." - ".$v4.'<br/>';
 echo "</br>";
