@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>CONSULTA DE DATOS</title>
+<meta charset="UTF-8"
+</head>
+<body>
+<h1>CONSULTA DE DATOS EN BBDD</h1>
+<form action="querysql.php" method="post">
+<p>Nombre de Base de Datos: <input type="text" name="bbdd"/required></p>
+<p>Usuario de Base de Datos: <input type="text" name="user"/required></p>
+<p>Contraseña: <input type="text" name="passwd"/required></p>
+<select name="selects">
+	<option value="selected" selected="selected">Seleccione Departamento a Consultar</option>
+	<option value="10">Departamento 10</option>
+	<option value="20">Departamento 20</option>
+	<option value="30">Departamento 30</option>
+	<option value="40">Departamento 40</option>
+</select>
+<p><input type="submit" value="Enviar"></p>
+</body>
+</html>
